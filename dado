@@ -1,0 +1,18 @@
+import random
+numero_de_lados_6 = random.randint(1,6)
+numero_de_lados_20 = random.randint(1,20)
+numero_de_lados_100 = random.randint(1,100)
+
+numero_de_lados = int(input("Digite o número de lados entre 6, 20 ou 100: "))
+
+if numero_de_lados == 6:
+    resultado = random.randint(1,6)
+    print("numero_de_lados_6:", resultado)
+elif numero_de_lados == 20:
+    resultado = random.randint(1,20)
+    print("numero_de_lados_20:", resultado)
+elif numero_de_lados == 100:
+    resultado = random.randint(1,100)
+    print("numero_de_lados_100:", resultado)
+else:
+    print("Erro: número de lados inválido")
